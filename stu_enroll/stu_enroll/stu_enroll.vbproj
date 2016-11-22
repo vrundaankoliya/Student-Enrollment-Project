@@ -1,0 +1,795 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A94F94CB-0937-4272-87DD-3428974776B3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>stu_enroll.My.MyApplication</StartupObject>
+    <RootNamespace>stu_enroll</RootNamespace>
+    <AssemblyName>stu_enroll</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <ManifestCertificateThumbprint>CA7ECD26B9477FE9B8EAB1E013D37A967185B108</ManifestCertificateThumbprint>
+    <ManifestKeyFile>stu_enroll_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <SignManifests>true</SignManifests>
+    <PublishUrl>D:\index\New Folder\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>stu_enroll.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>stu_enroll.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.VisualStudio.TeamSystem.Data.UnitTesting, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="class\clsConnection.vb" />
+    <Compile Include="class\clsUser.vb" />
+    <Compile Include="class\clsCollege.vb" />
+    <Compile Include="class\clsCourse.vb" />
+    <Compile Include="class\clsFaculty.vb" />
+    <Compile Include="class\clsSubject.vb" />
+    <Compile Include="class\clsEnrollment.vb" />
+    <Compile Include="class\clsMarks.vb" />
+    <Compile Include="DataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet1.vb">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="frmforgotpassword.Designer.vb">
+      <DependentUpon>frmforgotpassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmforgotpassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReportViewer.Designer.vb">
+      <DependentUpon>frmReportViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmReportViewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rptEnrollment.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptEnrollment.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DatabaseSetup.vb" />
+    <Compile Include="frmDashbord1.Designer.vb">
+      <DependentUpon>frmDashbord1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmDashbord1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEnrollment.designer.vb">
+      <DependentUpon>frmEnrollment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmEnrollment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRptEnrollment.Designer.vb">
+      <DependentUpon>frmRptEnrollment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmRptEnrollment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSubject.designer.vb">
+      <DependentUpon>frmSubject.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmSubject.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFaculty.designer.vb">
+      <DependentUpon>frmFaculty.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmFaculty.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCourse.designer.vb">
+      <DependentUpon>frmCourse.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCourse.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCollege.designer.vb">
+      <DependentUpon>frmCollege.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCollege.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Enrollment Details.Designer.vb">
+      <DependentUpon>Enrollment Details.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Enrollment Details.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Export Student Data.Designer.vb">
+      <DependentUpon>Export Student Data.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Export Student Data.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUser.designer.vb">
+      <DependentUpon>frmUser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmUser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIParent1.Designer.vb">
+      <DependentUpon>MDIParent1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MDIParent1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modify Enrollment.Designer.vb">
+      <DependentUpon>Modify Enrollment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Modify Enrollment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="New Enrollment Form.Designer.vb">
+      <DependentUpon>New Enrollment Form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="New Enrollment Form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="rptSubject.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptSubject.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Student List Report.Designer.vb">
+      <DependentUpon>Student List Report.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Student List Report.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student Statistics Report.Designer.vb">
+      <DependentUpon>Student Statistics Report.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Student Statistics Report.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Student Transfer Options.Designer.vb">
+      <DependentUpon>Student Transfer Options.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Student Transfer Options.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="User.Designer.vb">
+      <DependentUpon>User.vb</DependentUpon>
+    </Compile>
+    <Compile Include="User.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="abc.rdlc" />
+    <EmbeddedResource Include="frmforgotpassword.resx">
+      <DependentUpon>frmforgotpassword.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReportViewer.resx">
+      <DependentUpon>frmReportViewer.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptEnrollment.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptEnrollment.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDashbord1.resx">
+      <DependentUpon>frmDashbord1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEnrollment.resx">
+      <DependentUpon>frmEnrollment.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRptEnrollment.resx">
+      <DependentUpon>frmRptEnrollment.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSubject.resx">
+      <DependentUpon>frmSubject.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFaculty.resx">
+      <DependentUpon>frmFaculty.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCourse.resx">
+      <DependentUpon>frmCourse.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCollege.resx">
+      <DependentUpon>frmCollege.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Enrollment Details.resx">
+      <DependentUpon>Enrollment Details.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Export Student Data.resx">
+      <DependentUpon>Export Student Data.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUser.resx">
+      <DependentUpon>frmUser.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIParent1.resx">
+      <DependentUpon>MDIParent1.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modify Enrollment.resx">
+      <DependentUpon>Modify Enrollment.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="New Enrollment Form.resx">
+      <DependentUpon>New Enrollment Form.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptSubject.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptSubject.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student List Report.resx">
+      <DependentUpon>Student List Report.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student Statistics Report.resx">
+      <DependentUpon>Student Statistics Report.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student Transfer Options.resx">
+      <DependentUpon>Student Transfer Options.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User.resx">
+      <DependentUpon>User.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Resources\Untitled1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32px-Crystal_Clear_action_button_cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32px-Crystal_Clear_action_configure.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32px-Crystal_Clear_action_db_remove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32px-Crystal_Clear_action_decrypted.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32px-Crystal_Clear_action_edit_add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32px-Crystal_Clear_action_edit_addd.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32px-Crystal_Clear_action_viewmagfit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32px-Crystal_Clear_app_Login_Manager.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32px-Crystal_Clear_app_password.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32px-Crystal_Clear_filesystem_blockdevice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32px-Crystal_Clear_kdm_user_female.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1313049.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1313049-small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\accounts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\accounts_small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agt_action_fail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agt_action_fail1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agt_business.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agt_family.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agt_family1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agt_forward.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agt_runit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ark_small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ATM 2 Withdraw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ATM 2 Withdraw-small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Backup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bankledger small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brnach.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brnach1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\company.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\connect_to_network.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Correct.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customers %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customers.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\database.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deletesmall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\demo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\demo-small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\department.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\department-icone-5900-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\file_download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon holidays.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon holidays1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_bank.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-commissionGenerate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-loan-calculator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon-user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\karbon_karbon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\karbon_karbon-small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kuzer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kwikdisk.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kwikdisk-small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leave.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\leave1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\log.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login_icon %281%29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\login_icon.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logs small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Modem.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\N.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\noimage.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ok_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\palm_tree.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\palm_tree-sma.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\personal-loan-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\personal-loan-icon-small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Premise-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Premise-icon-small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Print.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rupees_symbol.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rupees_symbol-small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\slideshare-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\source_j.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\source_l.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\subject_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Template007.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tor-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tor-icon-sma.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\transfer data.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\travel-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\txt2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usbpendrive_unmount.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UserMaster.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vcalendar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vcalendar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vcalendar2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vcalendar3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vcalendar4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Volume Manager.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Volume Manager-small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tulips.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images-2.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images-3.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images-4.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images-5.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images-6.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images-7.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Unknown.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Unknown-1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Unknown-2.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Unknown-3.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images-1.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Books-1-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\college.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Courses-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Groups-Meeting-Dark-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Person-Male-Light-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Resources\refersh.jpeg" />
+    <None Include="stu_enroll_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Debug\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

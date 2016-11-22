@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "stu_enroll", "stu_enroll.vbproj", "{A94F94CB-0937-4272-87DD-3428974776B3}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "WindowsApplication1", "..\WindowsApplication1\WindowsApplication1.vbproj", "{77FBC159-417B-464D-94F0-89560EE103EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A94F94CB-0937-4272-87DD-3428974776B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A94F94CB-0937-4272-87DD-3428974776B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A94F94CB-0937-4272-87DD-3428974776B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A94F94CB-0937-4272-87DD-3428974776B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77FBC159-417B-464D-94F0-89560EE103EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77FBC159-417B-464D-94F0-89560EE103EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77FBC159-417B-464D-94F0-89560EE103EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77FBC159-417B-464D-94F0-89560EE103EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

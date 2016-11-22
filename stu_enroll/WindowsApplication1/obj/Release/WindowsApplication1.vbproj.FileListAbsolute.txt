@@ -1,0 +1,10 @@
+D:\New folder\stu_enroll\WindowsApplication1\bin\Release\WindowsApplication1.exe
+D:\New folder\stu_enroll\WindowsApplication1\bin\Release\WindowsApplication1.pdb
+D:\New folder\stu_enroll\WindowsApplication1\bin\Release\WindowsApplication1.xml
+D:\New folder\stu_enroll\WindowsApplication1\obj\Release\ResolveAssemblyReference.cache
+D:\New folder\stu_enroll\WindowsApplication1\obj\Release\WindowsApplication1.Form1.resources
+D:\New folder\stu_enroll\WindowsApplication1\obj\Release\WindowsApplication1.Resources.resources
+D:\New folder\stu_enroll\WindowsApplication1\obj\Release\WindowsApplication1.vbproj.GenerateResource.Cache
+D:\New folder\stu_enroll\WindowsApplication1\obj\Release\WindowsApplication1.exe
+D:\New folder\stu_enroll\WindowsApplication1\obj\Release\WindowsApplication1.xml
+D:\New folder\stu_enroll\WindowsApplication1\obj\Release\WindowsApplication1.pdb

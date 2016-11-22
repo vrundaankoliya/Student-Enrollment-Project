@@ -1,0 +1,72 @@
+D:\New folder\stu_enroll\stu_enroll\bin\Debug\stu_enroll.exe
+D:\New folder\stu_enroll\stu_enroll\bin\Debug\stu_enroll.pdb
+D:\New folder\stu_enroll\stu_enroll\bin\Debug\stu_enroll.xml
+D:\New folder\stu_enroll\stu_enroll\obj\Debug\ResolveAssemblyReference.cache
+D:\New folder\stu_enroll\stu_enroll\obj\Debug\stu_enroll.frmFaculty.resources
+D:\New folder\stu_enroll\stu_enroll\obj\Debug\stu_enroll.frmCourse.resources
+D:\New folder\stu_enroll\stu_enroll\obj\Debug\stu_enroll.frmCollege.resources
+D:\New folder\stu_enroll\stu_enroll\obj\Debug\stu_enroll.Enrollment_Details.resources
+D:\New folder\stu_enroll\stu_enroll\obj\Debug\stu_enroll.Export_Student_Data.resources
+D:\New folder\stu_enroll\stu_enroll\obj\Debug\stu_enroll.frmUser.resources
+D:\New folder\stu_enroll\stu_enroll\obj\Debug\stu_enroll.Login.resources
+D:\New folder\stu_enroll\stu_enroll\obj\Debug\stu_enroll.frmMDI.resources
+D:\New folder\stu_enroll\stu_enroll\obj\Debug\stu_enroll.Modify_Enrollment.resources
+D:\New folder\stu_enroll\stu_enroll\obj\Debug\stu_enroll.Resources.resources
+D:\New folder\stu_enroll\stu_enroll\obj\Debug\stu_enroll.New_Enrollment_Form.resources
+D:\New folder\stu_enroll\stu_enroll\obj\Debug\stu_enroll.Student_List_Report.resources
+D:\New folder\stu_enroll\stu_enroll\obj\Debug\stu_enroll.Student_Statistics_Report.resources
+D:\New folder\stu_enroll\stu_enroll\obj\Debug\stu_enroll.Student_Transfer_Options.resources
+D:\New folder\stu_enroll\stu_enroll\obj\Debug\stu_enroll.User.resources
+D:\New folder\stu_enroll\stu_enroll\obj\Debug\stu_enroll.vbproj.GenerateResource.Cache
+D:\New folder\stu_enroll\stu_enroll\obj\Debug\stu_enroll.exe
+D:\New folder\stu_enroll\stu_enroll\obj\Debug\stu_enroll.xml
+D:\New folder\stu_enroll\stu_enroll\obj\Debug\stu_enroll.pdb
+D:\New folder\stu_enroll\stu_enroll\obj\Debug\stu_enroll.frmSubject.resources
+D:\New folder\stu_enroll\stu_enroll\obj\Debug\stu_enroll.frmEnrollment.resources
+D:\New folder\stu_enroll\stu_enroll\obj\Debug\stu_enroll.frmDashbord1.resources
+D:\New folder\stu_enroll\stu_enroll\obj\Debug\stu_enroll.frmRptEnrollment.resources
+D:\New folder\stu_enroll\stu_enroll\bin\Debug\stu_enroll.exe.manifest
+D:\New folder\stu_enroll\stu_enroll\bin\Debug\stu_enroll.application
+D:\New folder\stu_enroll\stu_enroll\obj\Debug\stu_enroll.exe.manifest
+D:\New folder\stu_enroll\stu_enroll\obj\Debug\stu_enroll.application
+D:\New folder\stu_enroll\stu_enroll\bin\Debug\stu_enroll.exe.config
+D:\New folder\stu_enroll\stu_enroll\obj\Debug\RdlCompile.cache
+D:\New folder\stu_enroll\stu_enroll\obj\Debug\RdlCompile.compiled
+D:\New folder\stu_enroll\stu_enroll\obj\Debug\stu_enroll.frmReportViewer.resources
+D:\New folder\stu_enroll\stu_enroll\obj\Debug\stu_enroll.frmforgotpassword.resources
+D:\My Personal Folder\stu_enroll\stu_enroll\bin\Debug\stu_enroll.exe.config
+D:\My Personal Folder\stu_enroll\stu_enroll\obj\Debug\stu_enroll.exe
+D:\My Personal Folder\stu_enroll\stu_enroll\obj\Debug\stu_enroll.xml
+D:\My Personal Folder\stu_enroll\stu_enroll\obj\Debug\stu_enroll.pdb
+D:\My Personal Folder\stu_enroll\stu_enroll\obj\Debug\ResolveAssemblyReference.cache
+D:\My Personal Folder\stu_enroll\stu_enroll\obj\Debug\stu_enroll.frmforgotpassword.resources
+D:\My Personal Folder\stu_enroll\stu_enroll\obj\Debug\stu_enroll.frmReportViewer.resources
+D:\My Personal Folder\stu_enroll\stu_enroll\obj\Debug\stu_enroll.frmDashbord1.resources
+D:\My Personal Folder\stu_enroll\stu_enroll\obj\Debug\stu_enroll.frmEnrollment.resources
+D:\My Personal Folder\stu_enroll\stu_enroll\obj\Debug\stu_enroll.frmRptEnrollment.resources
+D:\My Personal Folder\stu_enroll\stu_enroll\obj\Debug\stu_enroll.frmSubject.resources
+D:\My Personal Folder\stu_enroll\stu_enroll\obj\Debug\stu_enroll.frmFaculty.resources
+D:\My Personal Folder\stu_enroll\stu_enroll\obj\Debug\stu_enroll.frmCourse.resources
+D:\My Personal Folder\stu_enroll\stu_enroll\obj\Debug\stu_enroll.frmCollege.resources
+D:\My Personal Folder\stu_enroll\stu_enroll\obj\Debug\stu_enroll.Enrollment_Details.resources
+D:\My Personal Folder\stu_enroll\stu_enroll\obj\Debug\stu_enroll.Export_Student_Data.resources
+D:\My Personal Folder\stu_enroll\stu_enroll\obj\Debug\stu_enroll.frmUser.resources
+D:\My Personal Folder\stu_enroll\stu_enroll\obj\Debug\stu_enroll.Login.resources
+D:\My Personal Folder\stu_enroll\stu_enroll\obj\Debug\stu_enroll.frmMDI.resources
+D:\My Personal Folder\stu_enroll\stu_enroll\obj\Debug\stu_enroll.Modify_Enrollment.resources
+D:\My Personal Folder\stu_enroll\stu_enroll\obj\Debug\stu_enroll.Resources.resources
+D:\My Personal Folder\stu_enroll\stu_enroll\obj\Debug\stu_enroll.New_Enrollment_Form.resources
+D:\My Personal Folder\stu_enroll\stu_enroll\obj\Debug\stu_enroll.Student_List_Report.resources
+D:\My Personal Folder\stu_enroll\stu_enroll\obj\Debug\stu_enroll.Student_Statistics_Report.resources
+D:\My Personal Folder\stu_enroll\stu_enroll\obj\Debug\stu_enroll.Student_Transfer_Options.resources
+D:\My Personal Folder\stu_enroll\stu_enroll\obj\Debug\stu_enroll.User.resources
+D:\My Personal Folder\stu_enroll\stu_enroll\obj\Debug\stu_enroll.vbproj.GenerateResource.Cache
+D:\My Personal Folder\stu_enroll\stu_enroll\obj\Debug\RdlCompile.cache
+D:\My Personal Folder\stu_enroll\stu_enroll\obj\Debug\RdlCompile.compiled
+D:\My Personal Folder\stu_enroll\stu_enroll\bin\Debug\stu_enroll.exe.manifest
+D:\My Personal Folder\stu_enroll\stu_enroll\bin\Debug\stu_enroll.application
+D:\My Personal Folder\stu_enroll\stu_enroll\bin\Debug\stu_enroll.exe
+D:\My Personal Folder\stu_enroll\stu_enroll\bin\Debug\stu_enroll.pdb
+D:\My Personal Folder\stu_enroll\stu_enroll\bin\Debug\stu_enroll.xml
+D:\My Personal Folder\stu_enroll\stu_enroll\obj\Debug\stu_enroll.exe.manifest
+D:\My Personal Folder\stu_enroll\stu_enroll\obj\Debug\stu_enroll.application
